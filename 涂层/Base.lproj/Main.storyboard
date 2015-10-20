@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aa.png" translatesAutoresizingMaskIntoConstraints="NO" id="0lv-GJ-v41">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0lv-GJ-v41" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="ErU-GB-FMg"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="0lv-GJ-v41" secondAttribute="bottom" id="LYq-aw-LL5"/>
+                            <constraint firstAttribute="trailing" secondItem="0lv-GJ-v41" secondAttribute="trailing" id="U48-TH-oCG"/>
+                            <constraint firstItem="0lv-GJ-v41" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="q0y-ku-Ner"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="0lv-GJ-v41" id="Kzu-2b-16g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="149.33333333333334" y="282.10666666666668"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="aa.png" width="200" height="200"/>
+    </resources>
+</document>
